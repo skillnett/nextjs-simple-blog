@@ -1,0 +1,17 @@
+.postCard {
+    display: block;
+    margin: 0.8rem;
+    padding: 1.3rem;
+    text-align: left;
+    color: inherit;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: 0.2s ease all;
+    width: 45%;
+    cursor: pointer;
+
+    &:hover {
+        color: #0070f3;
+        border-color: #0070f3;
+    }
+}
